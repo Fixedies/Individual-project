@@ -237,7 +237,8 @@ a.header-button:active {
 .cross-section-pic {
   position: absolute;
   left: 50%;
-  top: -50px;
+  top: 5px;
+  transform: translate(-50%, -50%);
   width: 120px;
   height: 109px;
   background-image: url(../img/elements/border.png);
@@ -316,17 +317,6 @@ a.header-button:active {
   background-image: url(../img/elements/Double-point-reverse.png);
   background-repeat: no-repeat;
   background-position: center;
-}
-._ {
-  font-size: 60px;
-  font-family: "Times New Roman";
-  color: rgba(86, 83, 76, 0.502);
-  line-height: 0.5;
-  text-align: center;
-  position: absolute;
-  left: 273px;
-  top: 1461.5px;
-  z-index: 234;
 }
 .about-food_photo {
   margin-top: 20px;
