@@ -1,4 +1,8 @@
 .navtab{
+	position: absolute;
+	top: 0;
+
+	color: #FFF;
 	background-color: rgba(86, 83, 76, 0.529);
 	display: flex;
 	align-items: center;
@@ -10,14 +14,15 @@
 	z-index: 1;
 }
 
-.navtab__warp {
-	// width: 1260px;
-	// height: 70px;
-}
-
 .navtab__logo {
+	color: #FFF;
+	font-family: 'Scriptina';
+	font-size: 30px;
+	letter-spacing: 9px;
+	
 	float: left;
 	margin-right: 100px;
+	margin-left: 170px;
 }
 
 .navtab__navigation-list {
@@ -26,7 +31,18 @@
 	display: flex;
 	float: left;
 	
+	font-family: 'Alegreya';
+	text-transform: uppercase;
+	letter-spacing: 5px;
 	list-style-type: none;
+	
+	li {
+		
+		a {
+			text-decoration: none;
+			color: #FFF;
+		}
+	}
 }
 
 .tilda {
@@ -35,10 +51,26 @@
 } 
 
 .social-icons {
-	font-size: 30px;
+	font-size: 14px;
+	margin-left: 150px;
+	margin-right: 170px;
+	
 	
 	a {
 		text-decoration: none;
-		border-bottom: none !important;
+		color: #FFF;
+		
+		&:hover, &:focus, &:active {
+			color: #FFF;
+			text-decoration: none;
+		}	
+	}
+
+	.fab {
+		margin-right: 25px;
+		
+		&:last-child {
+			margin-right: 0;
+		} 
 	}
 }
